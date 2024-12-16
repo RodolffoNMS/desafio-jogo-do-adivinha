@@ -4,6 +4,18 @@ Bem-vindo ao **Jogo do Adivinha**, um jogo interativo no qual o sistema sorteia 
 
 O jogo utiliza condicionais para determinar a pontuação do jogador com base na proximidade do palpite em relação ao número sorteado.
 
+## 🛠️ Estrutura do Código
+
+O código está organizado de forma modular para facilitar a leitura e manutenção:
+
+exibirMenu: Exibe o menu principal e captura a escolha do jogador.
+
+exibirRegras: Exibe as regras do jogo.
+
+jogarRodada: Gerencia a lógica de uma rodada do jogo, incluindo o sorteio do número, a entrada do palpite e a atribuição de pontos.
+
+main: Ponto de entrada do programa, gerencia o fluxo principal do jogo.
+
 ---
 ## 📜 Regras do Jogo:
 
@@ -29,29 +41,13 @@ Esse repositório conta com três branches além da Main, cada uma dessas branch
    4. Assim que o jogador acerta o número o jogo termina. 
 3. Ao final, o sistema exibe a pontuação total do jogador.
 
-## 🛠️ Estrutura do Código
-
-O código está organizado de forma modular para facilitar a leitura e manutenção:
-
-exibirMenu: Exibe o menu principal e captura a escolha do jogador.
-
-exibirRegras: Exibe as regras do jogo.
-
-jogarRodada: Gerencia a lógica de uma rodada do jogo, incluindo o sorteio do número, a entrada do palpite e a atribuição de pontos.
-
-main: Ponto de entrada do programa, gerencia o fluxo principal do jogo.
-
 --- 
---- 
-
 ### Entrega Média:
 
 1. O jogador pode jogar quantas vezes quiser.
 2. A pontuação se acumulada ao longo das rodadas.
 
 ---
----
-
 ### Entrega Máxima:
 
 1. Adicionar níveis de dificuldade:
